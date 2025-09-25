@@ -16,6 +16,7 @@ export default {
           blue: "#015daf", // 藍色
           yellow: "#efaf16", // 黃色
           white: "#ffffff", // 白色
+          whatsapp: "#25D366", // WhatsApp 綠色
         },
       },
     },
