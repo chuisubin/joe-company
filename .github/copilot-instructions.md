@@ -2,11 +2,13 @@
 
 ## 🎯 項目概述
 
-這是一個使用 **Nuxt.js 4** 和 **Tailwind CSS** 建立的現代化企業網站項目。專為 Joe Company 設計，提供完整的企業形象展示和服務介紹。
+這是一個使用 **Nuxt.js 4** 和 **Tailwind CSS** 建立的現代化企業網站項目。專為 忠泰健業有限公司(EVERTRUST ELECTRIC CORPORATION LIMITED) 設計，提供完整的企業形象展示和服務介紹。
+這是一間工程公司，主要服務項目包含:家電銷售、冷氣機安裝、維修、洗冷氣機、小型家電安裝等。
 
 ## 🏗️ 技術架構
 
 ### 核心技術棧
+
 - **Frontend Framework**: Nuxt.js 4 (Vue.js 3 全端框架)
 - **CSS Framework**: Tailwind CSS 3.x (utility-first)
 - **Language**: TypeScript
@@ -14,6 +16,7 @@
 - **Package Manager**: npm
 
 ### 項目特色
+
 - 📱 **響應式設計** - 完美適配桌面、平板、手機
 - ⚡ **SSR/SSG 支援** - 服務端渲染和靜態生成
 - 🎨 **現代化 UI** - 使用 Tailwind 的 utility classes
@@ -27,15 +30,12 @@ joe-company/
 ├── .github/                 # GitHub 配置和文檔
 │   └── copilot-instructions.md
 ├── components/              # Vue 組件
-│   ├── AppHeader.vue       # 網站標頭 (導航、Logo)
+│   ├── AppHeader.vue       # 網站標頭 (Logo,whatsapp導向)
 │   └── AppFooter.vue       # 網站頁尾 (聯絡資訊、連結)
 ├── layouts/                # 版型組件
 │   └── default.vue         # 預設版型 (Header + 內容 + Footer)
 ├── pages/                  # 路由頁面 (自動生成路由)
-│   ├── index.vue           # 首頁 - 企業介紹和特色
-│   ├── about.vue           # 關於我們 - 公司使命和團隊
-│   ├── services.vue        # 服務項目 - 詳細服務介紹
-│   └── contact.vue         # 聯絡我們 - 聯絡表單和資訊
+│   └──index.vue           # 首頁 - 企業介紹和服務項目
 ├── app/
 │   └── app.vue             # 根組件
 ├── public/                 # 靜態資源
@@ -47,12 +47,14 @@ joe-company/
 ## 🎨 設計系統
 
 ### 顏色方案
+
 - **主色調**: 深藍灰 (slate-700) - 專業、穩重
 - **次要色**: 藍色系 (blue-500/600) - 信任、科技
 - **漸層**: 紫色到藍色 - 創新、現代
 - **文字**: 深灰 (slate-700) / 中灰 (gray-600)
 
 ### 組件風格
+
 - **卡片**: 白色背景、陰影效果、圓角設計
 - **按鈕**: 圓角、hover 效果、過渡動畫
 - **導航**: 水平佈局、響應式摺疊選單
@@ -61,29 +63,17 @@ joe-company/
 ## 📖 頁面功能說明
 
 ### 首頁 (`/`)
+
 - Hero 區塊：公司標語、主要行動呼籲
 - 特色介紹：專業團隊、優質服務、創新技術
 - 響應式網格佈局
 
-### 關於我們 (`/about`)
-- 公司使命和願景
-- 團隊介紹
-- 企業價值觀
-
-### 服務項目 (`/services`)
-- 網站開發服務
-- 行動應用開發
-- 雲端服務
-- 技術諮詢
-
-### 聯絡我們 (`/contact`)
-- 聯絡表單 (姓名、郵件、電話、主題、訊息)
-- 公司聯絡資訊
-- 營業時間
+間
 
 ## 🔧 開發指南
 
 ### 主要指令
+
 ```bash
 npm run dev      # 開發模式
 npm run build    # 生產建置
@@ -91,6 +81,7 @@ npm run preview  # 預覽建置結果
 ```
 
 ### 編碼規範
+
 - 使用 TypeScript 進行類型檢查
 - 遵循 Vue 3 Composition API 風格
 - 使用 Tailwind utility classes 而非自定義 CSS
@@ -98,6 +89,7 @@ npm run preview  # 預覽建置結果
 - 檔案命名使用 kebab-case
 
 ### 響應式斷點
+
 - **sm**: 640px+ (手機橫向)
 - **md**: 768px+ (平板)
 - **lg**: 1024px+ (桌面)
@@ -124,4 +116,4 @@ npm run preview  # 預覽建置結果
 
 ---
 
-*此文檔幫助 AI 助手更好地理解項目結構、技術選擇和開發規範。*
+_此文檔幫助 AI 助手更好地理解項目結構、技術選擇和開發規範。_
