@@ -132,10 +132,10 @@ export default {
       },
       fontFamily: {
         // 自訂字體
-      }
-    }
-  }
-}
+      },
+    },
+  },
+};
 ```
 
 ### Nuxt 配置
